@@ -1,0 +1,300 @@
+/************************************************
+
+Global Styles
+
+************************************************/
+
+:root {
+  --green: rgba(0, 224, 151);
+  --blue: rgba(11, 185, 197);
+  --greentransparent: rgba(0, 212, 142, 0.8);
+  --bluetransparent: rgba(0, 143, 153, 0.8);
+  --lightgray: #f0f0f0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+h2,
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100%;
+}
+
+section {
+  height: 50vh;
+}
+
+.new-section h2 {
+  padding: 20px 0;
+  text-align: center;
+}
+
+/************************************************
+
+Header
+
+************************************************/
+
+.blackground-image {
+  background-image: url(/images/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.overlay-color {
+  background: linear-gradient(
+    90deg,
+    var(--greentransparent),
+    var(--bluetransparent)
+  );
+}
+
+.nav-container {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.logo {
+  min-width: 5%;
+  height: auto;
+  width: 150px;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+/************************************************
+
+Hero Content
+
+************************************************/
+
+.content-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  min-height: 80%;
+  max-height: 100%;
+}
+
+.cta {
+  padding: 20px 0;
+}
+
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 5em;
+  line-height: 1;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 40px 0 80px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: wrap;
+  width: 100%;
+}
+
+.email-input {
+  padding: 15px;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 10px 5px;
+  width: 25%;
+}
+
+.submit-btn:hover {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+.hero-image-container {
+  height: auto;
+}
+
+.hero-image {
+  width: 600px;
+  height: auto;
+}
+
+/************************************************
+
+Section 2
+
+************************************************/
+
+.section2 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  height: auto;
+  padding: 50px 15px;
+}
+
+.section2 h2 {
+  font-size: 2rem;
+  color: rgba(11, 185, 197);
+  padding-bottom: 20px;
+}
+
+.section2 p {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+/************************************************
+
+Section 3
+
+************************************************/
+
+.section3 {
+  background-color: var(--lightgray);
+  height: auto;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 70px 0;
+}
+
+.box {
+  text-align: center;
+  margin: 15px 0;
+  padding: 25px;
+  width: 400px;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
+  border-radius: 10px;
+}
+
+.box-content {
+  padding: 0;
+}
+
+.box-content h2 {
+  padding: 20px 0;
+}
+
+.box-content p {
+  font-weight: 500;
+  text-align: left;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+/************************************************
+
+Section 4
+
+************************************************/
+
+.background-image2 {
+  background-image: url(/images/person-writing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/************************************************
+
+Section 5
+
+************************************************/
+
+.section5 {
+  height: auto;
+}
+
+
+
+.laptop {
+  text-align: right;
+}
+
+/************************************************
+
+Section 6
+
+************************************************/
+
+.section6 {
+  background-color: var(--lightgray);
+}
+
+/************************************************
+
+Section 7
+
+************************************************/
+
+/************************************************
+
+Section 8
+
+************************************************/
